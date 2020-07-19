@@ -1,0 +1,19 @@
+---
+title: "Rmarkdown_example"
+author: "AJAY KUMAR"
+date: "7/19/2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+#This is my R Markdown file
+**This is bold content**
+*This is an italic content*
+[text that is shown here](https://google.com)
+run inline 'r code'
+```{r setup, include=FALSE}
+print("This is my Rmarkdown file")
+```
+
+ 
