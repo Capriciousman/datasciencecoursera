@@ -1,0 +1,54 @@
+---
+title: "Types of Data Analysis"
+author: "AJAY KUMAR"
+date: "7/19/2020"
+output: html_document
+---
+1. Descriptive
+2. Exploratory
+3. Inferential
+4. Predictive
+5. Causal 
+6. Mechanistic
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Descriptive analysis:
+Goal: Describe or summarize a set of data
+- Early analysis when receive new data.
+- Generate simple summaries about the samples and their measurements. E.g. measures of central tendency or measures of variability.
+-Not for generalizing the results of the analysis to a larger population or trying to make conclusions.
+
+2. Exploratory analysis
+Goal: Examine the data and find relationships that weren't previously known.
+- Explore how different variables might be related.
+- Useful for discovering new connections.
+- Help to formulate hypotheses and drive the design of future studies and data collection.
+ [Correlation does not imply causation]
+ 
+3.Inferential analysis
+Goal: Use a relatively small sample of data to say something about the population at large.
+- provide your estimate of the variable for the population and provide your uncertainty about your estimate.
+- Ability to accurately infer information about the larger population depends heavily on sampling scheme.
+
+4. Predictive analysis
+Goal: Use current and historical data to make predictions about future data.
+- Accuracy in predictions is dependent on measuring the right variables.
+- Many ways to build up prediction models with some being better or worse for specific cases.
+- More data and a simple model generally performs well at predicting future outcomes.
+ [Just because one variable may predict another, it does not mean that one causes the other]
+ 
+5. Causal analysis
+Goal: See what happens to one variable when we manipulate another variable.
+- Gold standard in data analysis.
+- Often applied to the results of randomized studies that were designed to identify causation.
+- Usually analyzed in aggregate and observed relationships are usually average effects.
+
+6. Mechanistic analysis
+Goal: Understand the exact changes in variables that lead to exact changes in other variables.
+- Applied to simple situations or those that are nicely modeled by deterministic equations.
+- Commonly applied to physical or engineering sciences.
+E.g. Biological sciences, are far too noisy to use mechanistic analysis.
+- Often, the only noise in the data is measurement error.

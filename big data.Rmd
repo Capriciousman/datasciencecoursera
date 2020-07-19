@@ -1,0 +1,12 @@
+---
+title: "Big data"
+author: "AJAY KUMAR"
+date: "7/19/2020"
+output: html_document
+---
+
+Big data has 3 V's:
+1. Volume - More and more data becoming increasingly available (What is big?)
+2. Velocity - Data is being generated at an astonishing rate(How fast can i collect new data?) 
+3. Variety - The data we can analyst comes in many forms (What is data?)
+
